@@ -1,0 +1,18 @@
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.student-table th, .student-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 2px solid pink;
+}
+.student-table th {
+  background-color: #f2f2f2;
+}
+.student-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+.student-table tr:hover {
+  background-color: #e9e9e9;
+}
